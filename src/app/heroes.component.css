@@ -1,0 +1,64 @@
+h1 {
+  color: #369;
+}
+
+h2 {
+  color:#258;
+}
+
+ul {
+  list-style-type:none;
+  padding:0px;
+}
+
+.badge {
+  background-color:#147;
+  width: 25px;
+  height: 25px;
+  border-radius:50%;
+  color:white;
+  display:inline-block;
+  font-size: small;
+  padding: 0.5em;
+  text-align:center;
+  line-height: 20px;
+  margin: 5px;
+}
+
+.selected {
+  background-color: #CFD8DC !important;
+  color: white;
+}
+.heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+.heroes li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: 1.0em;
+  padding: .3em 0;
+  height: 2em;
+  width:500px;
+  border-radius: 4px;
+}
+
+.heroes li.selected:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+}
+.heroes li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  -webkit-transform: scale(1.05,1.05);
+  -moz-transform: scale(1.05,1.05);
+  -ms-transform: scale(1.05,1.05);
+  -o-transform: scale(1.05,1.05);
+  transform: scale(1.05,1.05);
+}
+
+
